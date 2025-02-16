@@ -1,0 +1,13 @@
+prefix=/Users/atefeh/Downloads/end-to-end-ml-project/env
+exec_prefix=/Users/atefeh/Downloads/end-to-end-ml-project/env
+libdir=/Users/atefeh/Downloads/end-to-end-ml-project/env/lib
+sharedlibdir=/Users/atefeh/Downloads/end-to-end-ml-project/env/lib
+includedir=/Users/atefeh/Downloads/end-to-end-ml-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
